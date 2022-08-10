@@ -100,5 +100,9 @@ public class EmployeController {
 		return  "redirect:/viewList";
 	}
 	
-	
+	public String hello()
+	{
+		
+		return "hello eveyone";
+	}
 }
